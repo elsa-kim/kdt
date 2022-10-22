@@ -1,0 +1,42 @@
+/* 웹폰트?? */
+/* 모든 사용가자 동일한 화면의 폰트를 볼 수 있음 */
+font-family: 'Cute Font', cursive;
+
+.google-font{
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+.google-font{
+    font-family: 'Stylish', sans-serif;
+}
+
+@font-face {
+    font-family: 'ulsanjunggu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ulsanjunggu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'ulsanjunggu';
+}
+
+.container .sentences {
+    font-weight: bolder;
+    /* font-weight : 100~900, lighter, normal(default), bold, bolder */
+    font-size: 16px;
+    /* 1em=16px */
+    /* text-align: center; */
+    /* text-align : center, left, right */
+    /* text-decoration: line-through; */
+    /* text-decoration: underline; */
+
+    line-height: 32px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

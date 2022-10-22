@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: skyblue;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            transition: 1s;
+        }
+        .box1:hover{
+            transform: translateX(50px) scaleX(2);
+        }
+        .box2:hover{
+            transform: translateX(50px) skewX(-45deg);
+        }
+        .box3:hover{
+            border-radius: 50%;
+            background-color: red;
+            transform: translateX(300px) rotate(180deg);
+        }
+        .box4:hover{
+            background-color: yellow;
+            transform: perspective(100px) translateY(50px) scale(2) rotateY(360deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+</body>
+</html>

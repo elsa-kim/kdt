@@ -1,0 +1,35 @@
+body{
+    height: 1000px;
+}
+.box{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+
+}
+
+.background-image{
+    background-image: url("/img/small_img.png");
+    /* 1. background-repeat */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+
+    /* 2. background-position */
+    /* background-position: center; */
+    /* background-position: center top; */
+    /* background-position: top center; */
+    /* background-position: 3rem 5rem; */
+    /* 단축속성으로 단위를 두 개 쓰면, x축 y축 순으로결정됨*/
+    /* background-position: 100px; */
+
+    /* 3. background-size */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size: 90px;
+    /* 가로 90px에 대해 세로를 맞춰줌 */
+
+    /* 4. background-attachment */
+    background-attachment: fixed;
+
+}

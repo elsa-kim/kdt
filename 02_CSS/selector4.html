@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>속성 선택자</title>
+    <style>
+        /* 속성만 선택 */
+        [placeholder] {
+            background-color: yellow;
+        }
+        [disabled] {
+            background-color: red;
+        }
+        /* 속성과 속성값까지 선택; 속성값만 선택하는 것은 안됨 */
+        [type="password"] {
+            font-size: 50px;
+        }
+        [class="square"]{
+            width: 50px;
+            height: 50px;
+            background-color: pink;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="text1"/>
+    <input type="text" placeholder="text2"/>
+    <!-- disabled : 품절상품 같은거에 씀 -->
+    <input type="text" placeholder="text3" disabled/>
+    <input type="password" />
+
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+</body>
+</html>

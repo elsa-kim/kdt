@@ -1,0 +1,85 @@
+body{
+    height: 2000px;
+    background: linear-gradient(white, orange);
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+}
+
+.position-static{
+    position: static;
+    background-color: pink;
+    left: 500px;
+    /* static이라 위치값 줘도 안움직임, 포지션 주석처리해도 디폴트값이라 안움직 */
+}
+
+.position-relative{
+    position: relative;
+    background-color: aquamarine;
+    left: 50px;
+}
+
+.position-absolute{
+    position: absolute;
+    background-color: gold;
+    /* top: 0; */
+    bottom: 0;
+}
+
+.position-fixed{
+    position: fixed;
+    /* header 만들 때 많이 사용 */
+    background-color: coral;
+    /* bottom: 0; */
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+.parent { 
+    position: relative;
+}
+.circle {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    position: absolute;
+
+} 
+.circle5 {
+    top: 0;
+    left: 0;
+    background-color: #ff7c7c;
+} 
+.circle4 {
+    background-color: #ffb680; 
+    top: 0;
+    left: 50px;
+} 
+.circle3 {
+    background-color: #ffeb88; 
+    top: 0;
+    left: 100px;
+} 
+.circle2 {
+    background-color: #84ff8d; 
+    top: 0;
+    left: 150px;
+} 
+.circle1 {
+    background-color: #9afaff; 
+    top: 0;
+    left: 200px;
+}
+
+
+
+
+

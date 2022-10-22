@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- 기본 서식 자동 입력 ! + 엔터 -->
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form에 대해서 배워요</title>
+</head>
+<body>
+    <form>
+        <label for="id">아이디</label> <input type="text" id="id"/>
+        <label for="pw">비밀번호<input type="password" id="pw"/>
+        <label for="email">이메일</label><input type="email" id="email"/>
+
+        <br>
+        <textarea cols="30" rows="10" placeholder="내용을 입력하세요"></textarea>
+
+        <input type="color">
+        <input type="range">
+        <input type="file">
+        <input type="number">
+        <input type="date">
+        <input type="datetime-local">
+
+        <br><br>
+        <h5>다음 중 input type이 아닌것은? (모두 고르시오)</h5>
+        <input type="checkbox" name="input"> text 
+        <input type="checkbox" name="input"> click 
+        <input type="checkbox" name="input"> bread 
+        <input type="checkbox" name="input"> img 
+        <input type="checkbox" name="input"> date 
+
+        <br>
+
+        <h5>다음 중 img tag의 속성인것은?</h5>
+        <input type="radio" id="title" name="img"><label for="title">title</label>
+        <input type="radio" id="alt" name="img"><label for="alt">alt</label>
+        <input type="radio" id="mouse" name="img"><label for="mouse">mouse</label>
+        <input type="radio" id="value" name="img"><label for="value">value</label>
+
+        <input type="button" value="제출"/>
+        <button>ff</button>
+
+        <br>
+
+        <select name="flower">
+            <optgroup label="red_flower">
+                <option>장미</option>
+                <option>장미</option>
+                <option>장미</option>
+                <option>장미</option>
+            </optgroup>
+            <optgroup label="white_flower">
+                <option>국화</option>
+                <option>국화</option>
+                <option>국화</option>
+            </optgroup>
+            
+        </select>
+    </form>
+</body>
+</html>

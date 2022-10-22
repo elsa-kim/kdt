@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습5</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+        h2{
+            display: inline-block;
+            top: 30px;
+        }
+        .title{
+            text-align: center;
+        }
+        .next{
+            color: rgb(236, 190, 23);
+        }
+        .insta{
+            font-family: 'Fasthand', cursive;
+        }
+        .circle{
+            position: absolute;
+            border-radius: 50%; 
+        }
+        .big{
+            width: 200px; 
+            height: 200px; 
+            background:linear-gradient(#DB20DB, #FF0080, #FFE600);
+            left:calc(50% - 100px);
+        }
+        .medium{
+            width: 188px;
+            height: 188px;
+            background-color: white;
+            top: 6px;
+            left: 6px;
+        }
+        .small{
+            width: 176px;
+            height: 176px;
+            top: 6px;
+            left: 6px;
+            background-image: url("/img/pooh.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h2 class="insta">Instagram</h2>
+        <h2 class="next">프로필 만들기!</h2>
+    </div>
+    
+    <div class="circle big">
+        <div class="circle medium">
+            <div class="circle small"></div>
+        </div>
+    </div>
+
+</body>
+</html>

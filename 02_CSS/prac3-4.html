@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테두리 실습</title>
+    <style>
+        div{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: burlywood;
+            margin: 30px;
+            border-radius: 5% 10px 15% 20px;
+        }
+        .B1 {
+            border-width: 1px 2px 3px 4px;
+            border-style: solid;
+        }
+        .B2 {
+            border-style: solid dotted dashed double;
+            border-width: 5px;
+        }
+        .B3 {
+            border-color: aqua red greenyellow fuchsia;
+            border-width: 5px;
+            border-style: groove;
+
+        }
+        .B4 {
+            border-top: 1px solid rebeccapurple;
+            border-right: 2px dotted aqua;
+            border-bottom: 3px dashed chocolate;
+            border-left: 4px double cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- .border.boder$*4{테두리$} -->
+    <div class="B1">테두리1</div><br>
+    <div class="B2">테두리2</div><br>
+    <div class="B3">테두리3</div><br>
+    <div class="B4">테두리4</div>
+</body>
+</html>

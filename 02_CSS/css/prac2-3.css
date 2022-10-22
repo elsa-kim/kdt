@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+}
+body {
+    background-color: rgb(190, 235, 235);
+}
+.holiday {
+    color: red;
+}
+tr *:nth-child(7n+1){
+    color: red;
+}
+tr *:nth-child(7n+7){
+    color: blue;
+}
+
+
+
+/* 강사님 답안
+table tr th:first-child,
+table tr td:first-child,
+table tr .holiday{
+    color:red;
+}
+
+table tr th:last-child,
+table tr td:last-child{
+    color:blue;
+}
+*/
